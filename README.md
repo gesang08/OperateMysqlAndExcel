@@ -1,14 +1,12 @@
 # Operate MySQL DB and excel
 The program for the following：
+```
 #!/usr/bin/env python
 # _*_ coding: UTF-8 _*_
-
-```
 """
 实现操作数据库的类，可将从数据库获得的以字段为键，以字段内容为值的存储格式数据；
 实现对excel表的创建，读取，写入，追加的类
 """
-```
 
 import MySQLdb
 import MySQLdb.cursors
@@ -268,3 +266,4 @@ class operate_excel(object):
 
 if __name__ == '__main__':
     main()
+ ```
